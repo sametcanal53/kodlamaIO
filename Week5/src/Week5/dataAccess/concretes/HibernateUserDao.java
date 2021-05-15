@@ -1,6 +1,5 @@
 package Week5.dataAccess.concretes;
 
-
 import java.util.List;
 
 import Week5.dataAccess.abstracts.UserDao;
@@ -26,5 +25,11 @@ public class HibernateUserDao implements UserDao {
 		System.out.println("Sistem bilgisi güncellendi : " + user.getEmail());
 
 	}
+
+	public List<User> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 }

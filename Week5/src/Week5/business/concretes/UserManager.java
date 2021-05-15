@@ -1,8 +1,5 @@
 package Week5.business.concretes;
 
-import java.util.ArrayList;
-import java.util.regex.Pattern;
-
 import Week5.business.abstracts.UserService;
 
 import Week5.core.CheckManager;
@@ -15,7 +12,7 @@ public class UserManager implements UserService {
 
 	GoogleServiceAdapter googleServiceAdapter = new GoogleAdapter();
 	HibernateUserDao hibernateUserDao = new HibernateUserDao();
-	ArrayList<String> emailList = new ArrayList<String>();
+	CheckManager checkManager = new CheckManager();
 
 	@Override
 	public void login(String email, String password) {

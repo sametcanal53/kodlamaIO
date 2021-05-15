@@ -1,6 +1,5 @@
 package Week5.business.abstracts;
 
-import java.util.List;
 
 import Week5.entities.concretes.User;
 

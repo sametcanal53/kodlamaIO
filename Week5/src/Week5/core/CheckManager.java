@@ -2,13 +2,10 @@ package Week5.core;
 
 import java.util.regex.Pattern;
 
-import Week5.dataAccess.concretes.HibernateUserDao;
-import Week5.entities.concretes.User;
-
-import java.util.List;
 import java.util.regex.Matcher;
 
 public class CheckManager {
+
 	
 	public static boolean passwordCheck(String password) {
 		if(password.length() < 6)
@@ -30,6 +27,7 @@ public class CheckManager {
 			return true;
 	
 	}
+		
 	
 	public static boolean nameCheck(String name,String lastName) {
 		if(name.length()>=2 && lastName.length()>=2)

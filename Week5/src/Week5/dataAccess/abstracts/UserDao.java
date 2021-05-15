@@ -1,7 +1,5 @@
 package Week5.dataAccess.abstracts;
 
-import java.util.List;
-
 import Week5.entities.concretes.User;
 
 public interface UserDao {
